@@ -1,0 +1,107 @@
+body {
+  background-image: url('fc-25-release-times-featured.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header {
+  background-color: #000000;
+  padding: 1em;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 0.5em;
+}
+
+nav a {
+  margin: 0 1em;
+  color: #00ff2f;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+.text{
+  background-color: #1e2a38a5;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* VIDEO SECTION */
+video-container {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+video {
+  width: 90%;
+  max-width: 1000px;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* REVIEW SECTION */
+.review {
+  font-family: "Montserrat", sans-serif;
+  background-color: #1e2a38;
+  padding: 1em;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+/* FOOTER */
+footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}
+
+/* GALLERY SECTION */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  max-width: 1200px;
+  margin: 2em auto;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  background-color: rgba(255, 255, 255, 0.05); /* semi-transparent for contrast */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
